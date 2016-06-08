@@ -61,7 +61,7 @@ describe('qaObj', function (done) {
     });
   });
   it('should use converse to do all steps', function (done) {
-    this.timeout(5000);
+    this.timeout(10000);
     expect(qaLib.converse).to.be.a('function');
     var res;
     qaLib.converse(params, function (err, response) {
