@@ -1,9 +1,20 @@
 {
+  "name": "watson-qa-service",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detmitchell/watson-qa-service.git"
+  },
+   "author": "Jeff Mitchell <detmitchell@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detmitchell/watson-qa-service/issues"
+  },
+   "homepage": "https://github.com/detmitchell/watson-qa-service#readme",
   "dependencies": {
     "service-credentials": "^1.0.1",
     "watson-developer-cloud": "^1.9.2",
